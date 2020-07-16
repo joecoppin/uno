@@ -13,3 +13,5 @@ jobs:
           critical_message: Take a look, you've commited some <b>critical file</b>
           critical_files: |
             checker.yml
+            client/.eslintrc.js
+            docer-compose.yml
