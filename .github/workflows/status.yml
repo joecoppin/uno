@@ -1,0 +1,13 @@
+name: build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub Status
+        uses: crazy-max/ghaction-github-status@v1.0.1
+        
+      - name: Checkout
+        uses: actions/checkout@v2
